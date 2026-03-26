@@ -1,17 +1,19 @@
 package net.kamaar.tmixinsmod.mixin;
 
 import com.gametechbc.gtbcs_geomancy_plus.api.init.GGAttributes;
+import com.gametechbc.traveloptics.item.armor.PrimordialCrestArmorItem;
 import io.redspace.ironsspellbooks.api.registry.AttributeRegistry;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraftforge.registries.RegistryObject;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-@Mixin(targets = "com.gametechbc.traveloptics.item.armor.PrimordialCrestArmorItem")
+@Mixin(value = PrimordialCrestArmorItem.class, remap = false)
 public abstract class PrimordialCrestArmorItemMixin {
 
-    @Redirect(
+    @ModifyArg(
             method = "triggerKnockbackAndDamage",
             at = @At(
                     value = "INVOKE",
