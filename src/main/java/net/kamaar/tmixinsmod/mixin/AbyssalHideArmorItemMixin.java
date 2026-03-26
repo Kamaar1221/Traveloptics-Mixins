@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 
-@Mixin(value = AbyssalHideArmorItem.class, remap = false)
+@Mixin(value = AbyssalHideArmorItem.class)
 public abstract class AbyssalHideArmorItemMixin {
 
     @ModifyArg(
@@ -32,7 +32,7 @@ public abstract class AbyssalHideArmorItemMixin {
 
     @ModifyReturnValue(
             method = "calculateAbyssOrbDamage",
-            at = @At("RETURN")
+            at = @At("RETURN"), remap = false
     )
     private float redirectEnderSpellPowerC(float original) {
         return original / 2;
