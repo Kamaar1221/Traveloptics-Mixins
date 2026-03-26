@@ -233,6 +233,21 @@ dependencies {
 
     // Azurelib
     implementation fg.deobf("curse.maven:azurelib-817423:7797691")
+
+    // Test Dummy
+    runtimeOnly fg.deobf("curse.maven:mmmmmmmmmmmm-225738:6860192")
+
+    // Jade
+    runtimeOnly fg.deobf("curse.maven:jade-324717:6855440")
+
+    // JEI
+    runtimeOnly fg.deobf("curse.maven:jei-238222:7391695")
+
+    // Blessed Damage Indicators
+    runtimeOnly fg.deobf("curse.maven:blessfulled-1182590:6624691")
+
+    // Moonlightlib
+    runtimeOnly fg.deobf("curse.maven:selene-499980:7664875")
     }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.kamaar.tmixinsmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tmixins.refmap.json",
+  "mixins": [
+    "AbyssalHideArmorItemMixin",
+    "PrimordialCrestArmorItemMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}
