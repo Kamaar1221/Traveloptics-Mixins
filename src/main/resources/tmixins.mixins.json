@@ -5,7 +5,8 @@
   "refmap": "tmixins.refmap.json",
   "mixins": [
     "AbyssalHideArmorItemMixin",
-    "PrimordialCrestArmorItemMixin"
+    "PrimordialCrestArmorItemMixin",
+    "TectonicCrestArmorItemMixin"
   ],
   "client": [
   ],
