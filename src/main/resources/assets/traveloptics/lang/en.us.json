@@ -1,0 +1,5 @@
+{
+    "item.traveloptics.abyssal_hide_armor.tooltip1": "▪ When wearing the full set, §fdropping below §c75% §fhealth will cause Abyssal Orbs to shoot, homing in on nearby enemies and dealing damage. The damage scales with the wearer's Abyssal spell power. §fLong-cast armor imbued spells will be interrupted when armor is on cooldown. §c[⌛ CD: 20s]",
+    "item.traveloptics.primordial_crest_armor.tooltip1": "▪ When wearing the full set, each time the wearer is hit, it triggers a shockwave that knocks back nearby entities and deals damage in a §b5-block §fradius. The damage scales with §bGeo Spell Power§f and §bGeneric Spell Power§f. §fLong-cast armor imbued spells will be interrupted when armor is on cooldown. §c[⌛ CD: 20s]",
+    "item.traveloptics.tectonic_crest_armor.tooltip1": "▪ When wearing the full set, each hit taken triggers a shockwave that knocks back nearby enemies, deals damage in a §b7-block §fradius, and ignites them. This shockwave also deals additional damage based on the damage you took from that hit, scaling with §bGeneric§f, §bGeo§f and §bFire Spell Power§f. §c[⌛ CD: 20s]"
+}
